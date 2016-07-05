@@ -167,6 +167,11 @@ love.graphics.setColor(0,0,0,255)
 love.graphics.print("Test",50,50)
 ```
 
+## replacePrintFunctions: **Function**
+A function used internaly by the code to replace love graphics print function with a one that offests some fonts.
+
+
+
 ## _Version: **String**
 The current game version.
 
