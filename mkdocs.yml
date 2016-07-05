@@ -2,7 +2,7 @@ site_name: MoveOrDevelop
 repo_url: https://github.com/RamiLego4Game/MoDev/
 pages:
 - Home: index.md
-- File Index:
+- Code Files Index:
   - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
 theme: readthedocs
