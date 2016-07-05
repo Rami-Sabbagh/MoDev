@@ -148,16 +148,23 @@ local newTable = table.reverse(tbl)
 #### Returns:
 * newTable: **Table**: The reversed table.
 
-## _Version: **String**
-The current game version.
+## GetFont: **Function**
+Return a font.
+```lua
+local font = GetFont(FontName, FontSize)
+```
 
-## _Fonts: **Table**
-Loaded fonts holder.
 ```lua
 love.graphics.setFont(_Fonts["BebasNeue"])
 love.graphics.setColor(0,0,0,255)
 love.graphics.print("Test",50,50)
 ```
+
+## _Version: **String**
+The current game version.
+
+## _Fonts: **Table**
+Loaded fonts holder.
 
 ## _Images: **Table**
 Loaded images holder.
