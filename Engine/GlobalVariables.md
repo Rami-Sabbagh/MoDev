@@ -34,6 +34,17 @@ local array = StringToArray(str)
 #### Returns:
 * array **Table**: The result array.
 
+## isempty: **Function**
+Returns if the string is empty or not.
+```lua
+local bool = isempty(s)
+```
+#### Args:
+* s **String / Nil**: The string to check.
+
+#### Returns:
+* bool **Boolean**: Whether the string is empty or not.
+
 ## _Version: **String**
 The current game version.
 
