@@ -301,6 +301,14 @@ ScreenShake(power, decay)
 * power: **Number**: Something..
 * decay: **Number**: Something..
 
+## FreezeFrame: **Function**
+Freezes the current frame for a specific time ?
+```lua
+FreezeFrame(time)
+```
+#### Arguments:
+* time: **Number**: The amount of seconds to freeze the current frame for ?
+
 ## _Version: **String**
 The current game version.
 
