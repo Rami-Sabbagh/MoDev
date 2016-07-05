@@ -2,6 +2,21 @@
 This is a clone of stomp gamemode.
 
 ```lua
+--[[
+ * Copyright (c) 2012-2015 Those Awesome Guys (TAG)
+ *
+ * You may NOT use this software for any commercial 
+ * purpose, nor can you alter and redistribute it as your own.
+ * Any credit must be attributed to Those Awesome Guys (TAG)
+ * 
+ * You are allowed and even encouraged to mod(ify) the game 
+ * but all alterations must be specificed as a mod of the game
+ * Move or Die, and not claim that Move or Die itself is a game
+ * of your creation.
+ *
+ *  This notice may not be removed or altered from any source distribution.
+ --]]
+ 
 local base = require("Engine/effectBase");
 
 local effect = base:newEffect("Stomp");
