@@ -12,6 +12,6 @@ Creating a mod will allways require the creation of the basic files, To do that,
 * /Mods/YourMod/Src/Entities/ **Here is where all the entities code go in (ColorTile, CandyDispenser, FinishLine, etc..)**
 
 ## How to make a src mod:
- To do that so, we made some tutorial to teach you how things are made:
+######To do that so, we made some tutorial to teach you how things are made:
 * [Writing a basic gamemode](/Tutorials/WritingABasicGameMode.md)
 * More to come soon.
