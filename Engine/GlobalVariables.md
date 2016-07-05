@@ -93,6 +93,17 @@ TODO
 TEDE
 ```
 
+## string.trim: **Function**
+Remove trailing and leading whitespace from string, Read more [here](http://en.wikipedia.org/wiki/Trim_(8programming))
+```lua
+local trimmedStr = string.trim(str)
+```
+#### Arguments:
+* str: **String**: The string to trim.
+
+#### Returns:
+* trimmedStr: **String**: The result of trimming.
+
 ## _Version: **String**
 The current game version.
 
