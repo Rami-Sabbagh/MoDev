@@ -140,3 +140,25 @@ Unknown yet.
 ## _Grid: **Table**
 Used to keep track of objects on screen, using in Engine/SpatialHash.el
 
+## _SHADER: **Table**
+Global shader constant, to know whether to turn off shaders or keep them.
+
+## _CANVAS: **Table**
+Global canvas constant, to know whether canvases are supported or not.
+
+## _DXT: **Table**
+Global dxt constant, to know whether dxt is supported or not.
+
+## _ShaderArray: **Table**
+Unknown yet.
+
+## _prevShaderData: **Table**
+> I guess it's to avoid resending shader data.
+Unknown yet.
+
+## _ShaderErrors: **String**
+Defaults to empty string, changes to the error message incase of a shader errors (That's what I guess).
+
+## _EditorGrid: **Boolean**
+Unknown yet.
+
