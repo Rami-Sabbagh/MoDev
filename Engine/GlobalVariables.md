@@ -294,47 +294,47 @@ The amount of router per minute, Defaults to 1.
 Unknown yet, but it's value is -5;
 
 ## Unknown Variables:
-  **Booleans:**
-* _INTERNET
-* _ERROR_REPORTING
-* _AntialiasSupported
-* _EditorGrid
-* _GamepadOutput
-* _OutOfFocusSound
-* _POSTPROCESS_UI
-* _PAUSE
-* _BLUR
-* _Mipmap
-* _SPLASH
-* _SPLATTER
-* _BoundKeys
-* _LiveAIMatch
+**Booleans:**
+  * _INTERNET
+  * _ERROR_REPORTING
+  * _AntialiasSupported
+  * _EditorGrid
+  * _GamepadOutput
+  * _OutOfFocusSound
+  * _POSTPROCESS_UI
+  * _PAUSE
+  * _BLUR
+  * _Mipmap
+  * _SPLASH
+  * _SPLATTER
+  * _BoundKeys
+  * _LiveAIMatch
 
-  **Numbers:*
-* _TimePlayed
-* _currentFrameTime
-* _FPScap
-* _debugModeCycler
+**Numbers:*
+  * _TimePlayed
+  * _currentFrameTime
+  * _FPScap
+  * _debugModeCycler
 
-  **Strings:**
-* _currentModeName
-* _LastGameType
+**Strings:**
+  * _currentModeName
+  * _LastGameType
 
-  **Tables:**
-* _GlobalMessageQueue
-* _AdminSteamIds
-* _SoundsData
-* _SoundsDuration
-* _TweenTimeTo
-* _EmailThread
-* _cam2
-* _ShaderArray
-* _mouseUp
-* _KeyInput
-* _GamepadTap
-* _GamepadPress
-* _JoySticks
-* _DefaultCursor
-* _UnlockedHiddenCharacters
-* _miscUIRenders
-*  _memoryTest
+**Tables:**
+  * _GlobalMessageQueue
+  * _AdminSteamIds
+  * _SoundsData
+  * _SoundsDuration
+  * _TweenTimeTo
+  * _EmailThread
+  * _cam2
+  * _ShaderArray
+  * _mouseUp
+  * _KeyInput
+  * _GamepadTap
+  * _GamepadPress
+  * _JoySticks
+  * _DefaultCursor
+  * _UnlockedHiddenCharacters
+  * _miscUIRenders
+  *  _memoryTest
