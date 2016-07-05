@@ -309,6 +309,19 @@ FreezeFrame(time)
 #### Arguments:
 * time: **Number**: The amount of seconds to freeze the current frame for ?
 
+## math.wrap: **Function**
+Wraps the value around the low and high arguments.
+```lua
+local wrappedNumber = math.wrap(low,value,high)
+```
+#### Arguments:
+* low: **Number**: The smallest range inorder to warp the number.
+* value: **Number**: The number to warp.
+* high: **Number**: The largest range inorder to warp the number.
+
+#### Returns:
+* wrappedNumber: **Number**: The wrapping result.
+
 ## _Version: **String**
 The current game version.
 
