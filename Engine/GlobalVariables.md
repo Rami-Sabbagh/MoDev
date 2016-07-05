@@ -270,7 +270,7 @@ Warning(msg)
 
 ## Shockwave: **Function**
 Takes x and y relative to screen
-Unknown args:P
+Unknown args :P
 ```lua
 Shockwave(x,y,power,speed,width)
 ```
@@ -280,6 +280,16 @@ Shockwave(x,y,power,speed,width)
 * power: **Number**: Something..
 * speed: **Number**: Something..
 * width: **Number**: The width of something..
+
+## ChromaticPulse: **Function**
+Creates a chromatic pulse ?
+Unknown args :P
+```lua
+ChromaticPulse(time,power)
+```
+#### Arguments:
+* time: **Number**: Something..
+* power: **Number**: Something..
 
 ## _Version: **String**
 The current game version.
