@@ -85,11 +85,12 @@ local strTable = split("TADA,TODO,TEDE", ",")
 for k, v in ipairs(strTable) do
   print(v)
 end
---[[Console Output:
+```
+**Console Output:**
+```
 TADA
 TODO
 TEDE
-]]
 ```
 
 ## _Version: **String**
