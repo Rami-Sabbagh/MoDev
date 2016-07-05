@@ -169,6 +169,7 @@ Unknown yet.
 Whether post process is enabled in the advanced video settings page or not.
 
 ## _CHROMATICENABLED: **Boolean**
+Whether chromatic aberration is enabled in the advanced video settings page or not.
 
 ## _OCCLUSION: **Boolean**
 Whether ambient occlusion is enabled in the advanced video settings page or not.
