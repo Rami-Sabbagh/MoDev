@@ -126,6 +126,17 @@ local str = table.key_to_str(k)
 #### Returns:
 * str: **String**: The result string.
 
+## table.tostring: **Function**
+Converts a table to string.
+```lua
+local str = table.tostring(tbl)
+```
+#### Arguments:
+* tbl: **Table**: The table to convert into a string.
+
+#### Returns:
+* str: **String**: The result string.
+
 ## _Version: **String**
 The current game version.
 
