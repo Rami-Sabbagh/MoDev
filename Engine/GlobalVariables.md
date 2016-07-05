@@ -58,3 +58,33 @@ Useless empty function
 ```lua
 _emptyfn = function()end
 ```
+
+## _SheetScales: **Table**
+Holds scaled down sheet info
+
+## _INTERNET: **Boolean**
+Unknown yet.
+
+## _TimePlayed: **Number**
+Unknown yet.
+
+## _Padding: **Table**
+Holds the p2 padding info for images.
+
+## _IsUI: **Table**
+Tells which images were loaded from the UI folder so the engine don't apply mipmapping on them.
+
+## _Dir: **String**
+initalized in conf.lua, for accessing files using Lua's i/o library.
+
+## _DEFAULT_LANGUAGE: **String**
+The default language for the game to use for first time boot.
+```lua
+_DEFAULT_LANGUAGE = "Eng";
+```
+
+## _LANGUAGE: **String**
+The current game language.
+
+## _ERROR_REPORTING: **Boolean**
+Unknown yet.
