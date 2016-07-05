@@ -7,10 +7,10 @@ Returns the image quality.
 local quality = GetImageQualtity(imgName)
 ```
 #### Args:
-* imgName **String**: The name of the image, Example: "Joe"
+* imgName: **String**: The name of the image, Example: "Joe"
 
 #### Returns:
-* quality **String**: The quality of the image, can be "Hight", "Mid" or "Low".
+* quality: **String**: The quality of the image, can be "Hight", "Mid" or "Low".
 
 ## Round: **Function**
 Rounds the number float value.
@@ -18,10 +18,10 @@ Rounds the number float value.
 local roundedNum = Round(num)
 ```
 #### Args:
-* num **Number**: The number to round.
+* num: **Number**: The number to round.
 
 #### Returns:
-* roundedNum **Number**: The rounding result.
+* roundedNum: **Number**: The rounding result.
 
 ## StringToArray: **Function**
 Converts the string "1,2,3,4" to a table of numbers {1,2,3,4}
@@ -29,21 +29,21 @@ Converts the string "1,2,3,4" to a table of numbers {1,2,3,4}
 local array = StringToArray(str)
 ```
 #### Args:
-* str **String**: The string to covert.
+* str: **String**: The string to covert.
 
 #### Returns:
-* array **Table**: The result array.
+* array: **Table**: The result array.
 
 ## isempty: **Function**
 Returns if the string is empty or not.
 ```lua
-local bool = isempty(s)
+local bool = isempty(str)
 ```
 #### Args:
-* s **String / Nil**: The string to check.
+* str: **String / Nil**: The string to check.
 
 #### Returns:
-* bool **Boolean**: Whether the string is empty or not.
+* bool: **Boolean**: Whether the string is empty or not.
 
 ## _Version: **String**
 The current game version.
