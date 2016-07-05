@@ -202,7 +202,7 @@ local cursorName = GetCursor()
 #### Returns:
 * cursorName: **String**: The current cursor name.
 
-#### require2: **Function**:
+## require2: **Function**:
 An advanced version of the require function that returns the latest modified version of the requested file.
 ```lua
 local lib = require2(filepath)
