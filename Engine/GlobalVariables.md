@@ -240,6 +240,14 @@ local decStr = b64dec(encStr)
 #### Returns:
 * decStr: **String**: The decrypted string.
 
+## OpenSaveFolder: **Function**
+Opens the game save folder.
+```lua
+OpenSaveFolder(subfolder)
+```
+#### Arguments:
+* subfolder: **String / Nil**: To open a sub folder in the game save folder.
+
 ## _Version: **String**
 The current game version.
 
