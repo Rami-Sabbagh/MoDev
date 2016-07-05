@@ -1,2 +1,2 @@
-# MoDev
-MoveOrDevelop, A set of tools for programmers to develop new mods for MoveOrDie. Including a documentation for the game engine !
+# MoveOrDevelop
+Welcome to MoveOrDevelop, A set of tool that makes MoveOrDie modding more easier, It also includes a documentation of the game engine.
