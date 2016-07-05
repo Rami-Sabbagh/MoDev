@@ -194,3 +194,55 @@ Whether screenshake is enabled in the advanced video settings page or not.
 
 ## _PULSE: **Boolean**
 Whether rhythm pulse is enabled in the advanced video settings page or not.
+
+## _OutOfFocusSound: **Boolean**
+Unknown yet.
+
+## _POSTPROCESS_UI: **Boolean**
+Unknown yet.
+
+## _mouseButtons: **Table**
+Used in Events.el, for detecting when mouse buttons are held.
+
+## _mouseTap: **Table**
+Used in Events.lua, for detecting when a mouse button is tapped.
+
+## _mouseUp: **Table**
+Unknown yet.
+
+## _KeyInput: **Table**
+Unknown yet.
+
+## _cKeyInput: **Table**
+Unknown yet.
+
+## _KeyTap: **Table** 
+Used in Events.lua for detecting key taps. It reset at the end of the update function in main.lua
+
+## _KeyPress: **Table**
+Used in Events.lua for detecting key presses. Remains true until the key is released.
+
+## _cKeyTap: **Table**
+Stands for "Console Key Tap", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
+
+## _cKeyPress: **Table**
+Stands for "Console Key Press", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
+
+## _JoyTap: **Table**
+Used in Events.lua for detecting joystick taps. Doesn't work if game isn't focused.
+
+## _JoyPress: **Table**
+Used in Events.lua for detecting key presses. Doesn't work if game isn't focused.
+
+## _GamepadTap: **Table**
+Unknown yet.
+
+## _GamepadPress: **Table**
+Unknown yet.
+
+## _JoySticks: **Table**
+Unknown yet.
+
+## _DefaultCursor: **Nil**
+Unknown yet.
+
