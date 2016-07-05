@@ -260,6 +260,14 @@ local key = table.find(t, value)
 #### Returns:
 * key: **String / Number / Boolean**: The key of the value if found, false if not found.
 
+## Warning: **Function**
+Throws a warning (print) in the console without crashing.
+```lua
+Warning(msg)
+```
+#### Arguments:
+* msg: **Table / String / Number / Boolean / Nil**: The warning msg to show in the console.
+
 ## _Version: **String**
 The current game version.
 
