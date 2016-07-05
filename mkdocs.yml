@@ -5,4 +5,6 @@ pages:
 - Code Files Index:
   - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
+  - Src:
+    - 'MinigameUtility.el': 'Src/MinigameUtility.md'
 theme: readthedocs
