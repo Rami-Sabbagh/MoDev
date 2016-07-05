@@ -162,3 +162,22 @@ Defaults to empty string, changes to the error message incase of a shader errors
 ## _EditorGrid: **Boolean**
 Unknown yet.
 
+## _GamepadOutput: **Boolean**
+Unknown yet.
+
+## _POSTPROCESS: **Boolean**
+Whether post process is enabled in the advanced video settings page or not.
+
+## _CHROMATICENABLED: **Boolean**
+
+## _OCCLUSION: **Boolean**
+Whether ambient occlusion is enabled in the advanced video settings page or not.
+
+## _FSAA: **Number**
+Antialiasing leve, 0 Means disabled.
+
+## _DUST_POOFS: **Boolean**
+Whether dust poofs are enabled in the advanced video settings page or not.
+
+## _DEBUGInfo: **Boolean**
+Whether developer console is enabled in the general settings page or not, To enable extra debugging prints.
