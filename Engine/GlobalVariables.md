@@ -48,12 +48,6 @@ local bool = isempty(str)
 ## _Version: **String**
 The current game version.
 
-## _GlobalMessageQueue: **Table**
-Unknown yet.
-
-## _AdminSteamIds: **Table**
-Unknown yet.
-
 ## _Fonts: **Table**
 Loaded fonts holder.
 ```lua
@@ -74,12 +68,6 @@ The image datas of the loaded images.
 
 ## _Sounds: **Table**
 Loaded sounds holder.
-
-## _SoundsData: **Table**
-Unknown yet.
-
-## _SoundsDuration: **Table**
-Unknown yet.
 
 ## _rawJData: **Table**
 **Unparsed** jsons holder.
@@ -106,12 +94,6 @@ _emptyfn = function()end
 ## _SheetScales: **Table**
 Holds scaled down sheet info
 
-## _INTERNET: **Boolean**
-Unknown yet.
-
-## _TimePlayed: **Number**
-Unknown yet.
-
 ## _Padding: **Table**
 Holds the p2 padding info for images.
 
@@ -126,9 +108,6 @@ The default language for the game to use for first time boot, value: "Eng".
 
 ## _LANGUAGE: **String**
 The current game language.
-
-## _ERROR_REPORTING: **Boolean**
-Unknown yet.
 
 ## _INVITE_NOTIFICATION: **Number**
 0:None 1:Friends 2:All
@@ -151,9 +130,6 @@ Initialized in conf.lua, stores the screen/window properties.
 
 ## _NetworkConfig: **Table**
 Initialized in conf.lua, stores the networking properties.
-
-## _AntialiasSupported: **Boolean**
-Unknown yet.
 
 ## _StartupCommands: **Table**
 To save the initial commands from startup.ini
@@ -405,3 +381,20 @@ The player level required to unlock the ghost, Defaults to 6.
 
 ## _ROUNDS_PER_MINUTE: **Number**
 The amount of router per minute, Defaults to 1.
+
+# Unknown Variables:
+## Booleans:
+* _INTERNET
+* _ERROR_REPORTING
+* _AntialiasSupported
+
+## Numbers:
+* _TimePlayed
+
+## Strings:
+
+## Tables:
+* _GlobalMessageQueue
+* _AdminSteamIds
+* _SoundsData
+* _SoundsDuration
