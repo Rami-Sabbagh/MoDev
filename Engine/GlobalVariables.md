@@ -6,7 +6,7 @@ Returns the image quality.
 ```lua
 local quality = GetImageQualtity(imgName)
 ```
-#### Args:
+#### Arguments:
 * imgName: **String**: The name of the image, Example: "Joe"
 
 #### Returns:
@@ -17,7 +17,7 @@ Rounds the number float value.
 ```lua
 local roundedNum = Round(num)
 ```
-#### Args:
+#### Arguments:
 * num: **Number**: The number to round.
 
 #### Returns:
@@ -28,7 +28,7 @@ Converts the string "1,2,3,4" to a table of numbers {1,2,3,4}
 ```lua
 local array = StringToArray(str)
 ```
-#### Args:
+#### Arguments:
 * str: **String**: The string to covert.
 
 #### Returns:
@@ -39,11 +39,22 @@ Returns if the string is empty or not.
 ```lua
 local bool = isempty(str)
 ```
-#### Args:
+#### Arguments:
 * str: **String / Nil**: The string to check.
 
 #### Returns:
 * bool: **Boolean**: Whether the string is empty or not.
+* 
+## CopyTable: **Function**
+Copies/Clones a table and all its subtables.
+```lua
+  local newTable = CopyTable(orig)
+```
+#### Arguments:
+* orig: **Table**: The table to copy/clone
+
+#### Returns:
+* newTable: **Table**: The cloned table.
 
 ## _Version: **String**
 The current game version.
