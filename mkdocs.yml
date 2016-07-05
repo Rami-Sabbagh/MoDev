@@ -3,6 +3,8 @@ repo_url: https://github.com/RamiLego4Game/MoDev/
 pages:
 - Home: index.md
 - Code Files Index:
+  - Gamemodes:
+    - 'Stomp': 'Gamemodes/Stomp.md'
   - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
     - 'effectBase.el': 'Engine/effectBase.md'
