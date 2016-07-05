@@ -182,3 +182,15 @@ Whether dust poofs are enabled in the advanced video settings page or not.
 
 ## _DEBUGInfo: **Boolean**
 Whether developer console is enabled in the general settings page or not, To enable extra debugging prints.
+
+## _PROPS: **Boolean**
+Whether props are enabled in the advanced video settings page or not.
+
+## _VIBRATION: **Boolean**
+Whether controller rumble is enabled in the general settings page or not.
+
+## _SHAKE: **Boolean**
+Whether screenshake is enabled in the advanced video settings page or not.
+
+## _PULSE: **Boolean**
+Whether rhythm pulse is enabled in the advanced video settings page or not.
