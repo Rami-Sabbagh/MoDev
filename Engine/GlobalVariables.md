@@ -115,6 +115,17 @@ local str = table.val_to_str(val)
 #### Returns:
 * str: **String**: The result string.
 
+## table.key_to_str: **Function**
+Converts a table key to a string.
+```lua
+local str = table.key_to_str(k)
+```
+#### Arguments:
+* k: **Strings/Numbers/Booleans/Tables/Nils**: The table key.
+
+#### Returns:
+* str: **String**: The result string.
+
 ## _Version: **String**
 The current game version.
 
