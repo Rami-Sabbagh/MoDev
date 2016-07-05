@@ -371,6 +371,19 @@ open_url_in_steam_or_browser(url)
 #### Arguments:
 * url: **String**: The url to open.
 
+## truncate_by_width: **Function**
+Cuts the part of the text that's longer than the given width. Supports UTF8
+```lua
+local truncatedStr = truncate_by_width(text, width, font)
+```
+#### Arguments:
+* text: **UTF8 String**: The string to truncate.
+* width: **Number**: The limit width.
+* font: **LÖVE Font Class**: The font to use.
+
+#### Returns:
+* truncatedStr: **UTF8 String**: The truncated string.
+
 ## _Version: **String**
 The current game version.
 
