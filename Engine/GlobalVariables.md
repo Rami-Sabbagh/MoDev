@@ -23,6 +23,17 @@ local roundedNum = Round(num)
 #### Returns:
 * roundedNum **Number**: The rounding result.
 
+## StringToArray: **Function**
+Converts the string "1,2,3,4" to a table of numbers {1,2,3,4}
+```lua
+local array = StringToArray(str)
+```
+#### Args:
+* str **String**: The string to covert.
+
+#### Returns:
+* array **Table**: The result array.
+
 ## _Version: **String**
 The current game version.
 
