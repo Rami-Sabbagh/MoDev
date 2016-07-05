@@ -5,53 +5,53 @@ This class contains helpful functions that can be used by the minigames.
 local MinigameUtility = require("Src/MinigameUtility")
 ```
 
-## Utility:givePermakill: **Function**
+## MinigameUtility:givePermakill: **Function**
 Sets joe to die forever instead of respawn
 ```lua
-Utility:givePermakill(joe)
+MinigameUtility:givePermakill(joe)
 ```
 
-## Utility:init: **Function**
+## MinigameUtility:init: **Function**
 Setup things like the currently alive joe's and the dead joe's arrays.
 And sets up the Drop in/out functions to allow the creation/deletion of a Joe without breaking the other systems.
 ```lua
-Utility:init(Level,JoeArray)
+MinigameUtility:init(Level,JoeArray)
 ```
 
-## Utility:GetAlive: **Function**
+## MinigameUtility:GetAlive: **Function**
 Returns the array of joe's alive right now.
 ```lua
-local AliveJoes = Utility:GetAlive()
+local AliveJoes = MinigameUtility:GetAlive()
 ```
 
-## Utility:GetDead: **Function**
+## MinigameUtility:GetDead: **Function**
 Returns an array of the joe's that died in ORDER that they died in.
 ```lua
-local deathOrder = Utility:GetDead()
+local deathOrder = MinigameUtility:GetDead()
 ```
 
-## Utility:rankArrayToScoreArray: **Function**
+## MinigameUtility:rankArrayToScoreArray: **Function**
 Unknown yet.
 ```lua
-local ScoreArray = Utility:rankArrayToScoreArray(rankArray,scoresToAssign)
+local ScoreArray = MinigameUtility:rankArrayToScoreArray(rankArray,scoresToAssign)
 ```
 
-## Utility:GetAI: **Function**
+## MinigameUtility:GetAI: **Function**
 Unknown yet.
 > Developer Comment: do I really have to keep explaining?
 ```lua
-local aiArray = Utility:GetAI()
+local aiArray = MinigameUtility:GetAI()
 ```
 
-## Utility:Done: **Function**
+## MinigameUtility:Done: **Function**
 Returns the original Joe's respawn functions (turns off permakill)
 ```lua
-Utility:Done()
+MinigameUtility:Done()
 ```
 
-## Utility:DebugUpdate: **Function**
+## MinigameUtility:DebugUpdate: **Function**
 Unknown yet.
 > Developer Comment: temporary debug thing to allow Xelu to place splats by clicking for screenshot purposes.
 ```lua
-Utility:DebugUpdate(dt)
+MinigameUtility:DebugUpdate(dt)
 ```
