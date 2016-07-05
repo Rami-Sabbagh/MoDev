@@ -181,6 +181,16 @@ local dist = GetDistanceLineToPoint(x,y,m,c)
 * m: **Number**: Y Intercept.
 * c: **Number**: Gradient.
 
+## SetCursor: **Function**
+Sets the curson image.
+```lua
+SetCursor(imagename,hotx,hoty)
+```
+#### Arguments:
+* imagename: **String**: The cursor image name.
+* hotx: **Number**: The x position of the cursor clicking point.
+* hoty: **Number**: The y position of the cursor clicking point.
+
 #### Returns:
 * dist: **Number**: The distance from the line to the point.
 
