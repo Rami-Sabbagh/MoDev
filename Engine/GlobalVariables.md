@@ -116,3 +116,27 @@ To save the initial commands from startup.ini
 
 ## _DEFAULT_MIPMAP: **Number**
 Unknown yet, but it's value is -5;
+
+## _Mouse: **Table**
+Used for getting mouse position.
+Content: x (number), y (number), worldX (number), worldY (number)
+
+## _TweenTimeTo: **Table**
+Unknown yet.
+
+## _recoveryLevelData: **Nil / LevelData**
+Keeps track of level being edited in the editor to save in case of crash.
+
+## _EmailThread: **Table**
+> Wow, why would MoveOrDie have an EmailThread ??
+Unknown yet.
+
+## _cam: **Table**
+Global camera object.
+
+## _cam2: **Table**
+Unknown yet.
+
+## _Grid: **Table**
+Used to keep track of objects on screen, using in Engine/SpatialHash.el
+
