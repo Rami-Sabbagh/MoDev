@@ -141,21 +141,11 @@ Unknown yet, but it's value is -5;
 Used for getting mouse position.
 Content: x (number), y (number), worldX (number), worldY (number)
 
-## _TweenTimeTo: **Table**
-Unknown yet.
-
 ## _recoveryLevelData: **Nil / LevelData**
 Keeps track of level being edited in the editor to save in case of crash.
 
-## _EmailThread: **Table**
-> Wow, why would MoveOrDie have an EmailThread ??
-Unknown yet.
-
 ## _cam: **Table**
 Global camera object.
-
-## _cam2: **Table**
-Unknown yet.
 
 ## _Grid: **Table**
 Used to keep track of objects on screen, using in Engine/SpatialHash.el
@@ -169,21 +159,11 @@ Global canvas constant, to know whether canvases are supported or not.
 ## _DXT: **Table**
 Global dxt constant, to know whether dxt is supported or not.
 
-## _ShaderArray: **Table**
-Unknown yet.
-
 ## _prevShaderData: **Table**
-> I guess it's to avoid resending shader data.
-Unknown yet.
+Used to avoid resending shader data.
 
 ## _ShaderErrors: **String**
 Defaults to empty string, changes to the error message incase of a shader errors (That's what I guess).
-
-## _EditorGrid: **Boolean**
-Unknown yet.
-
-## _GamepadOutput: **Boolean**
-Unknown yet.
 
 ## _POSTPROCESS: **Boolean**
 Whether post process is enabled in the advanced video settings page or not.
@@ -195,7 +175,7 @@ Whether chromatic aberration is enabled in the advanced video settings page or n
 Whether ambient occlusion is enabled in the advanced video settings page or not.
 
 ## _FSAA: **Number**
-Antialiasing leve, 0 Means disabled.
+Antialiasing level, 0 Means disabled.
 
 ## _DUST_POOFS: **Boolean**
 Whether dust poofs are enabled in the advanced video settings page or not.
@@ -215,26 +195,12 @@ Whether screenshake is enabled in the advanced video settings page or not.
 ## _PULSE: **Boolean**
 Whether rhythm pulse is enabled in the advanced video settings page or not.
 
-## _OutOfFocusSound: **Boolean**
-Unknown yet.
-
-## _POSTPROCESS_UI: **Boolean**
-Unknown yet.
 
 ## _mouseButtons: **Table**
 Used in Events.el, for detecting when mouse buttons are held.
 
 ## _mouseTap: **Table**
 Used in Events.el, for detecting when a mouse button is tapped.
-
-## _mouseUp: **Table**
-Unknown yet.
-
-## _KeyInput: **Table**
-Unknown yet.
-
-## _cKeyInput: **Table**
-Unknown yet.
 
 ## _KeyTap: **Table** 
 Used in Events.el for detecting key taps. It reset at the end of the update function in main.lua
@@ -245,6 +211,9 @@ Used in Events.el for detecting key presses. Remains true until the key is relea
 ## _cKeyTap: **Table**
 Stands for "Console Key Tap", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
 
+## _cKeyInput: **Table**
+Stands for "Console Key Input", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
+
 ## _cKeyPress: **Table**
 Stands for "Console Key Press", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
 
@@ -253,18 +222,6 @@ Used in Events.el for detecting joystick taps. Doesn't work if game isn't focuse
 
 ## _JoyPress: **Table**
 Used in Events.el for detecting key presses. Doesn't work if game isn't focused.
-
-## _GamepadTap: **Table**
-Unknown yet.
-
-## _GamepadPress: **Table**
-Unknown yet.
-
-## _JoySticks: **Table**
-Unknown yet.
-
-## _DefaultCursor: **Nil**
-Unknown yet.
 
 ## _world: **Nil / LÖVE Physics world object**
 Initalized in GameSetup.el, the box2d game world.
@@ -278,18 +235,6 @@ Box2d time factor.
 ## _RenderArray: **Table**
 Holds sub arrays of special things that need to be rendered, like UI objects.
 Contains: UI (table), GUI (table), Dynamic (table)
-
-## _currentModeName: **String**
-Unknown yet.
-
-## _UnlockedHiddenCharacters: **Table**
-Unknown yet.
-
-## _PAUSE: **Boolean**
-Unknown yet.
-
-## _BLUR: **Boolean**
-Unknown yet.
 
 ## _numOfObjectsOnScreen: **Number**
 To log the number of objects being rendered in the current frame.
@@ -306,40 +251,19 @@ Associative array to hold them by name.
 ## _globalTimers: **Table**
 Used in GlobalTimer.lua to sync certain animations.
 
-## _currentFrameTime: **Number**
-Unknown yet.
-
 ## _b2Scale: **Number**
 Used to scale up the graphics from the box2d bodies.
 It is used in all b2Object.lua functions to divide game coordinates into box2d coordinates before use.
 It is used in GameObject.lua to scale the box2d functions up to game coordinates for making objects follow their box2d bodies and for debug drawing.
 
-## _FPScap: **Number**
-Unknown yet.
-
-## _Mipmap: **Boolean*
-Unknown yet.
-
 ## _miscRenders: **Table**
 This is for rendering things at a specific depth without having to do it manually.
 
-## _miscUIRenders: **Table**
-Unknown yet.
-
 ## _StartMode: **String**
-Unknown yet, Defaults to "Splash".
-
-## _SPLASH: **Boolean**
-Unknown yet.
-
-## _SPLATTER: **Boolean**
-Unknown yet.
-
-## _BoundKeys: **Boolean**
-Unknown yet.
+The game starting state file name, Defaults to "Splash".
 
 ## _debugThing, _debugThing2, _debugThing3, _debugTriangles ,_debugShapes: **Tables**
-Debugging tables ?, Unknown yet.
+Debugging tables.
 
 ## _debugModes: **Table**
 The debug modes for the editor I guess.
@@ -347,12 +271,6 @@ Contains: "none", "classic", "ai", "netcode", "navmesh", "navmesh-edit", "perfor
 
 ## _debugMode: **String**
 The current debug mode for the editor I guess.
-
-## _debugModeCycler: **Number**
-Unknown yet.
-
-## _memoryTest: **Table**
-Unknown yet.
 
 ## _TEXTUREQUALITY: **String**
 The current quality of the textures, Defaults to "High".
@@ -369,12 +287,6 @@ Delays a check in Events.lua
 
 ## _ImageQualities: **Table**
 Stores each image's current quality
-
-## _LiveAIMatch: **Boolean**
-Unknown yet.
-
-## _LastGameType: **String**
-Unknown yet.
 
 ## _GHOST_UNLOCK_LEVEL: **Number**
 The player level required to unlock the ghost, Defaults to 6.
@@ -398,3 +310,9 @@ The amount of router per minute, Defaults to 1.
 * _AdminSteamIds
 * _SoundsData
 * _SoundsDuration
+
+Numbers: _currentFrameTime, _FPScap, _debugModeCycler, 
+Strings: _currentModeName, _LastGameType, 
+Booleans: _EditorGrid, _GamepadOutput, _OutOfFocusSound, _POSTPROCESS_UI, _PAUSE, _BLUR, _Mipmap, _SPLASH, _SPLATTER, _BoundKeys, _LiveAIMatch, 
+Tables: _TweenTimeTo, _EmailThread, _cam2, _ShaderArray, _mouseUp, _KeyInput, _GamepadTap, _GamepadPress, _JoySticks, _DefaultCursor, _UnlockedHiddenCharacters, _miscUIRenders, _memoryTest, 
+Nils: 
