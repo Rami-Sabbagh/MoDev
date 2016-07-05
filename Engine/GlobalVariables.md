@@ -361,3 +361,14 @@ The player level required to unlock the ghost, Defaults to 6.
 
 ## _ROUNDS_PER_MINUTE: **Number**
 The amount of router per minute, Defaults to 1.
+
+## GetImageQuality: **Function**
+```lua
+local quality = GetImageQualtity(imgName)
+```
+#### Args:
+* imgName **String**: The name of the image, Example: "Joe"
+
+#### Returns:
+* quality **String**: The quality of the image, can be "Hight", "Mid" or "Low".
+
