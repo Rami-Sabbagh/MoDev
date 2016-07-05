@@ -1,1 +1,1 @@
-## How to write a basic gamemode for MoD.
+## How to write a basic gamemode for MoD
