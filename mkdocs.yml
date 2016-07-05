@@ -5,6 +5,7 @@ pages:
 - Code Files Index:
   - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
+    - 'effectBase.el': 'Engine/effectBase.md'
   - Src:
     - 'MinigameUtility.el': 'Src/MinigameUtility.md'
 theme: readthedocs
