@@ -218,6 +218,28 @@ local lib = require2(filepath)
 local MinigameUtility = require2("Src.MinigameUtility")
 ```
 
+## b64enc: **Function**
+Encrypts a string using base64.
+```lua
+local encStr = b64enc(str)
+```
+#### Arguments:
+* str: **String**: The string to encrypt.
+
+#### Returns:
+* encStr: **String**: The encrypted string.
+
+## b64dec: **Function**
+Decrypts a string ecrypted using base64.
+```lua
+local decStr = b64dec(encStr)
+```
+#### Arguments:
+* encStr: **String**: The encrypted string to decrypt.
+
+#### Returns:
+* decStr: **String**: The decrypted string.
+
 ## _Version: **String**
 The current game version.
 
