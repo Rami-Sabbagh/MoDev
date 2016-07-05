@@ -248,6 +248,18 @@ OpenSaveFolder(subfolder)
 #### Arguments:
 * subfolder: **String / Nil**: To open a sub folder in the game save folder.
 
+## table.find: **Function**
+Searches for the give value in the table, and return the key if found.
+```
+local key = table.find(t, value)
+```
+#### Arguments:
+* t: **Table**: The table to search in.
+* value: **Table / String / Number / Boolean / Nil**: The value to search for.
+
+#### Returns:
+* key: **String / Number / Boolean**: The key of the value if found, false if not found.
+
 ## _Version: **String**
 The current game version.
 
