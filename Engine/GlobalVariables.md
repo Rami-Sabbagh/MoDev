@@ -137,6 +137,17 @@ local str = table.tostring(tbl)
 #### Returns:
 * str: **String**: The result string.
 
+## table.reverse: **Function**
+Reverse the table key order.
+```lua
+local newTable = table.reverse(tbl)
+```
+#### Arguments:
+* tbl: **Table**: The table to reverse its order.
+
+#### Returns:
+* newTable: **Table**: The reversed table.
+
 ## _Version: **String**
 The current game version.
 
