@@ -363,6 +363,14 @@ local r,g,b = HSVtoRGB(h, s, v)
 * g: **Number**: The g value of the color.
 * b: **Number**: The b value of the color.
 
+## open_url_in_steam_or_browser: **Function**
+Open a page in the steam web browse if steam is running, or opens it in the os default browser.
+```lua
+open_url_in_steam_or_browser(url)
+```
+#### Arguments:
+* url: **String**: The url to open.
+
 ## _Version: **String**
 The current game version.
 
