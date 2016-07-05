@@ -295,46 +295,46 @@ Unknown yet, but it's value is -5;
 
 ## Unknown Variables:
 **Booleans:**
-  * _INTERNET
-  * _ERROR_REPORTING
-  * _AntialiasSupported
-  * _EditorGrid
-  * _GamepadOutput
-  * _OutOfFocusSound
-  * _POSTPROCESS_UI
-  * _PAUSE
-  * _BLUR
-  * _Mipmap
-  * _SPLASH
-  * _SPLATTER
-  * _BoundKeys
-  * _LiveAIMatch
+* _INTERNET
+* _ERROR_REPORTING
+* _AntialiasSupported
+* _EditorGrid
+* _GamepadOutput
+* _OutOfFocusSound
+* _POSTPROCESS_UI
+* _PAUSE
+* _BLUR
+* _Mipmap
+* _SPLASH
+* _SPLATTER
+* _BoundKeys
+* _LiveAIMatch
 
 **Numbers:*
-  * _TimePlayed
-  * _currentFrameTime
-  * _FPScap
-  * _debugModeCycler
+* _TimePlayed
+* _currentFrameTime
+* _FPScap
+* _debugModeCycler
 
 **Strings:**
-  * _currentModeName
-  * _LastGameType
+* _currentModeName
+* _LastGameType
 
 **Tables:**
-  * _GlobalMessageQueue
-  * _AdminSteamIds
-  * _SoundsData
-  * _SoundsDuration
-  * _TweenTimeTo
-  * _EmailThread
-  * _cam2
-  * _ShaderArray
-  * _mouseUp
-  * _KeyInput
-  * _GamepadTap
-  * _GamepadPress
-  * _JoySticks
-  * _DefaultCursor
-  * _UnlockedHiddenCharacters
-  * _miscUIRenders
-  *  _memoryTest
+* _GlobalMessageQueue
+* _AdminSteamIds
+* _SoundsData
+* _SoundsDuration
+* _TweenTimeTo
+* _EmailThread
+* _cam2
+* _ShaderArray
+* _mouseUp
+* _KeyInput
+* _GamepadTap
+* _GamepadPress
+* _JoySticks
+* _DefaultCursor
+* _UnlockedHiddenCharacters
+* _miscUIRenders
+*  _memoryTest
