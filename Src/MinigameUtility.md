@@ -1,5 +1,9 @@
 # MinigameUtility.el
 This class contains helpful functions that can be used by the minigames.
+### Usage:
+```lua
+local MinigameUtility = require("Src/MinigameUtility")
+```
 
 ## Utility:givePermakill: **Function**
 
