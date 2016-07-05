@@ -335,6 +335,19 @@ GetPrivateIP(callback)
 GetPrivateIP(function(ip) print("Got Private IP: ",ip) end
 ```
 
+## GetPublicIP: **Function**
+Get's the public ip of the client, and then calls the given callback with the ip.
+```lua
+GetPublicIP(callback)
+```
+#### Arguments:
+* callback: **Function**: The function to call after getting the ip, the ip is passed as an argument.
+
+#### Example:
+```lua
+GetPublicIP(function(ip) print("Got Public IP: ",ip) end
+```
+
 ## _Version: **String**
 The current game version.
 
