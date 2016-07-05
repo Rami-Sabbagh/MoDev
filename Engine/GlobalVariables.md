@@ -104,6 +104,17 @@ local trimmedStr = string.trim(str)
 #### Returns:
 * trimmedStr: **String**: The result of trimming.
 
+## table.val_to_str: **String**
+Convert any value to string, Supports: Strings,Tables,Numbers,Booleans,Nils
+```lua
+local str = table.val_to_str(val)
+```
+#### Arguments:
+* val: **Tables / Strings / Numbers / Booleans / Nils**: The value to convert into a string.
+
+#### Returns:
+* str: **String**: The result string.
+
 ## _Version: **String**
 The current game version.
 
