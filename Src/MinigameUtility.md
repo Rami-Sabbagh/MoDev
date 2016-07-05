@@ -1,4 +1,4 @@
-# MinigameUtility.el
+# Src/MinigameUtility.el
 This class contains helpful functions that can be used by the minigames.
 ### Usage:
 ```lua
