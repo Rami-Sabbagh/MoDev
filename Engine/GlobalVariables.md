@@ -322,6 +322,19 @@ local wrappedNumber = math.wrap(low,value,high)
 #### Returns:
 * wrappedNumber: **Number**: The wrapping result.
 
+## GetPrivateIP: **Function**
+Get's the private (network) ip of the client, and then calls the given callback with the ip.
+```lua
+GetPrivateIP(callback)
+```
+#### Arguments:
+* callback: **Function**: The function to call after getting the ip, the ip is passed as an argument.
+
+#### Example:
+```lua
+GetPrivateIP(function(ip) print("Got Private IP: ",ip) end
+```
+
 ## _Version: **String**
 The current game version.
 
