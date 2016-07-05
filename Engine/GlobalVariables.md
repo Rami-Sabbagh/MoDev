@@ -384,6 +384,14 @@ local truncatedStr = truncate_by_width(text, width, font)
 #### Returns:
 * truncatedStr: **UTF8 String**: The truncated string.
 
+## report_video_memory_stats: **Function**
+Reports the video memory stats to the cosole, appending the given name to the end of the report.
+```lua
+report_video_memory_stats(name)
+```
+#### Arguments:
+* name: **Table / String / Number / Boolean / Nil**: the name to append to the end of the report.
+
 ## _Version: **String**
 The current game version.
 
