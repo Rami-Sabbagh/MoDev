@@ -452,4 +452,4 @@ Unknown yet, but it's value is -5;
 
 **Strings:** _currentModeName, _LastGameType
 
-**Tables:** _GlobalMessageQueue, _AdminSteamIds, _SoundsData, _SoundsDuration, _TweenTimeTo, _EmailThread, _cam2, _ShaderArray, _mouseUp, _KeyInput, _GamepadTap, _GamepadPress, _JoySticks, _DefaultCursor, _UnlockedHiddenCharacters, _miscUIRenders, _memoryTest
+**Tables:** _GlobalMessageQueue, _AdminSteamIds, _SoundsData, _SoundsDuration, _TweenTimeTo, _EmailThread, _cam2, _ShaderArray, _mouseUp, _KeyInput, _GamepadTap, _GamepadPress, _JoySticks, _DefaultCursor, _UnlockedHiddenCharacters, _miscUIRenders, _memoryTest _filesToUpdate
