@@ -9,7 +9,7 @@ Creating a mod will allways require the creation of the basic files, To do that,
 * /Mods/YourMod/Lib/ **Here goes all the assets you wanna add to the game**
 * /Mods/YourMod/Src/Modes/ **Here is where all the gamemodes code go in**
 * /Mods/YourMod/Src/Mutators/ **Here is where all the mutators code go in**
-* /Mods/YourMod/Src/Entities/ **Here is where all the entities code go in (ColorTile, CandyDispenser, FinishLine, etc..)
+* /Mods/YourMod/Src/Entities/ **Here is where all the entities code go in (ColorTile, CandyDispenser, FinishLine, etc..)**
 
 ## How to make a src mod:
 To do that so, we made some tutorial to teach you how things are made:
