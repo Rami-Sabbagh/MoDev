@@ -1,6 +1,28 @@
 # Engine/GlobalVariables.el
 This file containes all the global variables available in the game enviroment.
 
+## GetImageQuality: **Function**
+Returns the image quality.
+```lua
+local quality = GetImageQualtity(imgName)
+```
+#### Args:
+* imgName **String**: The name of the image, Example: "Joe"
+
+#### Returns:
+* quality **String**: The quality of the image, can be "Hight", "Mid" or "Low".
+
+## Round: **Function**
+Rounds the number float value.
+```lua
+local roundedNum = Round(num)
+```
+#### Args:
+* num **Number**: The number to round.
+
+#### Returns:
+* roundedNum **Number**: The rounding result.
+
 ## _Version: **String**
 The current game version.
 
@@ -361,25 +383,3 @@ The player level required to unlock the ghost, Defaults to 6.
 
 ## _ROUNDS_PER_MINUTE: **Number**
 The amount of router per minute, Defaults to 1.
-
-## GetImageQuality: **Function**
-Returns the image quality.
-```lua
-local quality = GetImageQualtity(imgName)
-```
-#### Args:
-* imgName **String**: The name of the image, Example: "Joe"
-
-#### Returns:
-* quality **String**: The quality of the image, can be "Hight", "Mid" or "Low".
-
-## Round: **Function**
-Rounds the number float value.
-```lua
-local roundedNum = Round(num)
-```
-#### Args:
-* num **Number**: The number to round.
-
-#### Returns:
-* roundedNum **Number**: The rounding result.
