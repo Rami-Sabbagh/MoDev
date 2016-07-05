@@ -181,6 +181,9 @@ local dist = GetDistanceLineToPoint(x,y,m,c)
 * m: **Number**: Y Intercept.
 * c: **Number**: Gradient.
 
+#### Returns:
+* dist: **Number**: The distance from the line to the point.
+
 ## SetCursor: **Function**
 Sets the curson image.
 ```lua
@@ -191,8 +194,13 @@ SetCursor(imagename,hotx,hoty)
 * hotx: **Number**: The x position of the cursor clicking point.
 * hoty: **Number**: The y position of the cursor clicking point.
 
+## GetCursor: **Function**
+Returns the current cursor name.
+```lua
+local cursorName = GetCursor()
+```
 #### Returns:
-* dist: **Number**: The distance from the line to the point.
+* cursorName: **String**: The current cursor name.
 
 ## _Version: **String**
 The current game version.
