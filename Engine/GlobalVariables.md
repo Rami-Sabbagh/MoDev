@@ -202,6 +202,22 @@ local cursorName = GetCursor()
 #### Returns:
 * cursorName: **String**: The current cursor name.
 
+#### require2: **Function**:
+An advanced version of the require function that returns the latest modified version of the requested file.
+```lua
+local lib = require2(filepath)
+```
+#### Arguments:
+* filepath: **String**: The path to the file.
+
+#### Returns:
+* lib: **Table / String / Number / Boolean / Nil**: The returning var from the library, it will be a table mostly.
+
+#### Example:
+```lua
+local MinigameUtility = require2("Src.MinigameUtility")
+```
+
 ## _Version: **String**
 The current game version.
 
