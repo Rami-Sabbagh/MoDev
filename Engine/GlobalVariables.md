@@ -205,7 +205,7 @@ Unknown yet.
 Used in Events.el, for detecting when mouse buttons are held.
 
 ## _mouseTap: **Table**
-Used in Events.lua, for detecting when a mouse button is tapped.
+Used in Events.el, for detecting when a mouse button is tapped.
 
 ## _mouseUp: **Table**
 Unknown yet.
@@ -217,10 +217,10 @@ Unknown yet.
 Unknown yet.
 
 ## _KeyTap: **Table** 
-Used in Events.lua for detecting key taps. It reset at the end of the update function in main.lua
+Used in Events.el for detecting key taps. It reset at the end of the update function in main.lua
 
 ## _KeyPress: **Table**
-Used in Events.lua for detecting key presses. Remains true until the key is released.
+Used in Events.el for detecting key presses. Remains true until the key is released.
 
 ## _cKeyTap: **Table**
 Stands for "Console Key Tap", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
@@ -229,10 +229,10 @@ Stands for "Console Key Tap", must seperate these to seperate focus. Use this fo
 Stands for "Console Key Press", must seperate these to seperate focus. Use this for text and console typing. Key Tap is used for in-game key presses only.
 
 ## _JoyTap: **Table**
-Used in Events.lua for detecting joystick taps. Doesn't work if game isn't focused.
+Used in Events.el for detecting joystick taps. Doesn't work if game isn't focused.
 
 ## _JoyPress: **Table**
-Used in Events.lua for detecting key presses. Doesn't work if game isn't focused.
+Used in Events.el for detecting key presses. Doesn't work if game isn't focused.
 
 ## _GamepadTap: **Table**
 Unknown yet.
@@ -245,4 +245,17 @@ Unknown yet.
 
 ## _DefaultCursor: **Nil**
 Unknown yet.
+
+## _world: **Nil / LÖVE Physics world object**
+Initalized in GameSetup.el, the box2d game world.
+
+## _Gravity: **Number**
+The y gravity of the b2world.
+
+## _b2Factor: **Number**
+Box2d time factor.
+
+## _RenderArray: **Table**
+Holds sub arrays of special things that need to be rendered, like UI objects.
+Contains: UI (table), GUI (table), Dynamic (table)
 
