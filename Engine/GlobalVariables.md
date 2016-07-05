@@ -67,6 +67,31 @@ local newStr = RemoveGhosts(str)
 #### Returns:
 * newStr: **String**: The string without spaces.
 
+## split: **Function**
+Splits the string according the the given pattern.
+```lua
+local strTable = split(str,pattern)
+```
+#### Arguments:
+* str: **String**: The string to split.
+* pattern: **String**: The pattern to use when splitting.
+
+#### Returns:
+* strTable: **Table**: A table containing the splitting results.
+
+#### Example:
+```lua
+local strTable = split("TADA,TODO,TEDE", ",")
+for k, v in ipairs(strTable) do
+  print(v)
+end
+--[[Console Output:
+TADA
+TODO
+TEDE
+]]
+```
+
 ## _Version: **String**
 The current game version.
 
