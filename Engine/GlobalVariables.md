@@ -15,6 +15,7 @@ Unknown yet.
 Loaded fonts holder.
 ```lua
 love.graphics.setFont(_Fonts["BebasNeue"])
+love.graphics.setColor(0,0,0,255)
 love.graphics.print("Test",50,50)
 ```
 
@@ -43,7 +44,7 @@ Unknown yet.
 local JSON = require("Engine/JSON") --Require the json parser.
 local JData = JSON:decode(_rawJData["HugeTextSheetEng"]) --Parse the json data of the Lib/UI/HUD/HugeTextSheetEng.json file
 for k,v in pairs(JData) do
-  print("["..type(v)//"] "..tostring(k)..": "..tostring(v))
+  print("["..type(v)//"] "..tostring(k)..": "..tostring(v)) --Print the content of the json data.
 end
 ```
 
