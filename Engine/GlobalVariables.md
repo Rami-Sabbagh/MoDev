@@ -392,6 +392,23 @@ report_video_memory_stats(name)
 #### Arguments:
 * name: **Table / String / Number / Boolean / Nil**: the name to append to the end of the report.
 
+## Lerp: **Function**
+Does something that I don't know
+```lua
+local num Lerp(a, b, t)
+```
+#### Arguments:
+* a: **Number**: Something..
+* b: **Number**: Something..
+* t: **Number**: Something..
+
+#### SRC of the function:
+```lua
+function Lerp(a, b, t)
+	return (b-a)*t+a
+end
+```
+
 ## _Version: **String**
 The current game version.
 
