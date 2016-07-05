@@ -153,9 +153,16 @@ Return a font.
 ```lua
 local font = GetFont(FontName, FontSize)
 ```
+#### Arguments:
+* FontName: **String**: The name of the font.
+* FontSize: **Number**: The size of the font.
 
+#### Returns:
+* Font: **LÖVE Font Class**: The font requested.
+
+#### Example:
 ```lua
-love.graphics.setFont(_Fonts["BebasNeue"])
+love.graphics.setFont(GetFont("BebasNeue",24))
 love.graphics.setColor(0,0,0,255)
 love.graphics.print("Test",50,50)
 ```
