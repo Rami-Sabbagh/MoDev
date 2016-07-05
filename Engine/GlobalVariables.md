@@ -78,13 +78,41 @@ Tells which images were loaded from the UI folder so the engine don't apply mipm
 initalized in conf.lua, for accessing files using Lua's i/o library.
 
 ## _DEFAULT_LANGUAGE: **String**
-The default language for the game to use for first time boot.
-```lua
-_DEFAULT_LANGUAGE = "Eng";
-```
+The default language for the game to use for first time boot, value: "Eng".
 
 ## _LANGUAGE: **String**
 The current game language.
 
 ## _ERROR_REPORTING: **Boolean**
 Unknown yet.
+
+## _INVITE_NOTIFICATION: **Number**
+0:None 1:Friends 2:All
+Defaults to 2.
+
+## _CONVENTION: **Boolean**
+Xelu uses this when he is showing off in a convention ??
+
+## _SPECTATOR_KEYS: **Boolean**
+Special screen after successful Speed Run, I guess it's for Xelu in conventions ;)
+
+## _FIRST_TIME_PLAYING: **Boolean**
+The name says it, Its used to show the language selection & tutorial level in the first time boot.
+
+## _RELIABLE_UPDATES: **Boolean**
+Whether the game update traffic should be sent reliable (true) vs unreliable (false). Defaults to unreliable (false).
+
+## _Screen: **Table**
+Initialized in conf.lua, stores the screen/window properties.
+
+## _NetworkConfig: **Table**
+Initialized in conf.lua, stores the networking properties.
+
+## _AntialiasSupported: **Boolean**
+Unknown yet.
+
+## _StartupCommands: **Table**
+To save the initial commands from startup.ini
+
+## _DEFAULT_MIPMAP: **Number**
+Unknown yet, but it's value is -5;
