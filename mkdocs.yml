@@ -2,6 +2,9 @@ site_name: MoveOrDevelop
 repo_url: https://github.com/RamiLego4Game/MoDev/
 pages:
 - Home: index.md
+- Tutorials:
+  - 'Creating a src mod': 'Tutorials/CreatingASRCMod.md'
+  - 'Writing a basic gamemode': 'Tutorials/WritingABasicGameMode.md'
 - Code Files Index:
   - Gamemodes:
     - 'Stomp': 'Gamemodes/Stomp.md'
