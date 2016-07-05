@@ -348,6 +348,21 @@ GetPublicIP(callback)
 GetPublicIP(function(ip) print("Got Public IP: ",ip) end
 ```
 
+## HSVtoRGB: **Function**
+Converts a color from HSV to RGB.
+```lua
+local r,g,b = HSVtoRGB(h, s, v)
+```
+#### Arguments:
+* h: **Number**: The h value of the color.
+* s: **Number**: The s value of the color.
+* v: **Number**: The v value of the color.
+
+#### Returns:
+* r: **Number**: The r value of the color.
+* g: **Number**: The g value of the color.
+* b: **Number**: The b value of the color.
+
 ## _Version: **String**
 The current game version.
 
