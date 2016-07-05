@@ -7,7 +7,7 @@ Also acts as a template.
 local base = require("Engine/effectBase")
 ```
 
-## base:newEffect: **Function**
+## base:newEffect - **Function**
 Create a new effect.
 ```lua
 local effect = base:newEffect(name)
@@ -25,7 +25,7 @@ local base = require("Engine/effectBase")
 local effect = base:newEffect("testEffect")
 ```
 
-## base:init: **Callback Function**
+## base:init - **Callback Function**
 Initialized once the effect is run.
 This is used to initialize all your stuff or create objects!
 ```lua
@@ -37,7 +37,7 @@ end
 * level: **Engine Level Class**: The loaded level.
 * JoeArray: **Table**: An array containing the joes for the game, usually 4 for MoD.
 
-## base:clear: **Callback Function**
+## base:clear - **Callback Function**
 Cleans up anything that was done by this effect when it gets stopped.
 Make sure to remove anything you added in the init function!
 ```lua
@@ -46,7 +46,7 @@ function effect:clear()
 end
 ```
 
-## base:update: **Callback Function**
+## base:update - **Callback Function**
 The main update function, runs every frame.
 ```lua
 function effect:update(dt)
