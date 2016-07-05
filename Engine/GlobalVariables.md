@@ -48,13 +48,24 @@ local bool = isempty(str)
 ## CopyTable: **Function**
 Copies/Clones a table and all its subtables.
 ```lua
-  local newTable = CopyTable(orig)
+local newTable = CopyTable(orig)
 ```
 #### Arguments:
 * orig: **Table**: The table to copy/clone
 
 #### Returns:
 * newTable: **Table**: The cloned table.
+
+## RemoveGhosts: **Function**
+It removes spaces from the given string.
+```lua
+local newStr = RemoveGhosts(str)
+```
+#### Arguments:
+* str: **String**: The string to remove the spaces from.
+
+#### Returns:
+* newStr: **String**: The string without spaces.
 
 ## _Version: **String**
 The current game version.
