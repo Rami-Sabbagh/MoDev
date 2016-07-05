@@ -259,3 +259,105 @@ Box2d time factor.
 Holds sub arrays of special things that need to be rendered, like UI objects.
 Contains: UI (table), GUI (table), Dynamic (table)
 
+## _currentModeName: **String**
+Unknown yet.
+
+## _UnlockedHiddenCharacters: **Table**
+Unknown yet.
+
+## _PAUSE: **Boolean**
+Unknown yet.
+
+## _BLUR: **Boolean**
+Unknown yet.
+
+## _numOfObjectsOnScreen: **Number**
+To log the number of objects being rendered in the current frame.
+
+## _SoundArray: **Table**
+Holds sounds that are currently updating/playing.
+
+## _Batches: **Table**
+Holds the sprite batches to be rendered. They are added as normal objects.
+
+## _BatchNames: **Table**
+Associative array to hold them by name.
+
+## _globalTimers: **Table**
+Used in GlobalTimer.lua to sync certain animations.
+
+## _currentFrameTime: **Number**
+Unknown yet.
+
+## _b2Scale: **Number**
+Used to scale up the graphics from the box2d bodies.
+It is used in all b2Object.lua functions to divide game coordinates into box2d coordinates before use.
+It is used in GameObject.lua to scale the box2d functions up to game coordinates for making objects follow their box2d bodies and for debug drawing.
+
+## _FPScap: **Number**
+Unknown yet.
+
+## _Mipmap: **Boolean*
+Unknown yet.
+
+## _miscRenders: **Table**
+This is for rendering things at a specific depth without having to do it manually.
+
+## _miscUIRenders: **Table**
+Unknown yet.
+
+## _StartMode: **String**
+Unknown yet, Defaults to "Splash".
+
+## _SPLASH: **Boolean**
+Unknown yet.
+
+## _SPLATTER: **Boolean**
+Unknown yet.
+
+## _BoundKeys: **Boolean**
+Unknown yet.
+
+## _debugThing, _debugThing2, _debugThing3, _debugTriangles ,_debugShapes: **Tables**
+Debugging tables ?, Unknown yet.
+
+## _debugModes: **Table**
+The debug modes for the editor I guess.
+Contains: "none", "classic", "ai", "netcode", "navmesh", "navmesh-edit", "performance".
+
+## _debugMode: **String**
+The current debug mode for the editor I guess.
+
+## _debugModeCycler: **Number**
+Unknown yet.
+
+## _memoryTest: **Table**
+Unknown yet.
+
+## _TEXTUREQUALITY: **String**
+The current quality of the textures, Defaults to "High".
+
+## _TEXTURESCALES: **Table**
+The texture scales according to the current texture quality.
+Contains: High = 1, Medium = 0.75, Low = 0.5
+
+## _SERVER: **Nil**
+The game server thread.
+
+## _JOYFRAMEDELAY: **Number**
+Delays a check in Events.lua
+
+## _ImageQualities: **Table**
+Stores each image's current quality
+
+## _LiveAIMatch: **Boolean**
+Unknown yet.
+
+## _LastGameType: **String**
+Unknown yet.
+
+## _GHOST_UNLOCK_LEVEL: **Number**
+The player level required to unlock the ghost, Defaults to 6.
+
+## _ROUNDS_PER_MINUTE: **Number**
+The amount of router per minute, Defaults to 1.
