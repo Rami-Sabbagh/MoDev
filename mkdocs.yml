@@ -3,6 +3,6 @@ repo_url: https://github.com/RamiLego4Game/MoDev/
 pages:
 - Home: index.md
 - File Index:
-  - 'Engine':
+  - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
 theme: readthedocs
