@@ -1,5 +1,5 @@
 # MoveOrDevelop
-Welcome to MoveOrDevelop, A project that aims to make MoveOrDie modding more easier to programmers.
+Welcome to MoveOrDevelop, A project that aims to make MoveOrDie modding more easier for programmers.
 
 ## Is this legal ?
 Sure :3, Remember this at the demo ?
