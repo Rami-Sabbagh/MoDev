@@ -11,7 +11,7 @@ We are aiming to make it real, but Xelu made it harder for us since he encrypted
 
 But don't worry, we got our own way to put our hands on the src, without breaking the eula & the license of the game, as we are not redistributing any game files, only documenting it :D
 
-## Is it possible to document this file ?
+## Is it possible to document X file ?
 Well, Only if I got enough time, Create an issue in the [Github Repository Issues Page](https://github.com/RamiLego4Game/MoDev/issues) Adding a [ToDoc] tag on the title of the issue.
 some files shouldn't be shown to the public, that's for some security reasons..
 
