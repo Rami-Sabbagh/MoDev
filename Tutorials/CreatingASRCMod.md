@@ -1,6 +1,6 @@
 # Creating a source code mod
 Creating a source code mod is not that hard, but the thing is in learning how to program.
-This documentation is intended to be used by programmers who knows how to program using Lua & LÖVE Framework.
+This documentation is intended to be used by programmers who already knows how to program using Lua & LÖVE Framework.
 
 ## Creating the basic mod files
 Creating a mod will allways require the creation of the basic files, To do that, follow the [offical tutorial](http://www.moveordiegame.com/modding/intro) from the TAG team till the "How To Make A Mod" part.
