@@ -170,7 +170,19 @@ love.graphics.print("Test",50,50)
 ## replacePrintFunctions: **Function**
 A function used internaly by the code to replace love graphics print function with a one that offests some fonts.
 
+## GetDistanceLineToPoint: **Function**
+Given a point, a gradient and y intercept, it calculates distance between the point and the line.
+```lua
+local dist = GetDistanceLineToPoint(x,y,m,c)
+```
+#### Arguments:
+* x: **Number**: The x position of the point.
+* y: **Number**: The y position of the point.
+* m: **Number**: Y Intercept.
+* c: **Number**: Gradient.
 
+#### Returns:
+* dist: **Number**: The distance from the line to the point.
 
 ## _Version: **String**
 The current game version.
