@@ -134,9 +134,6 @@ Initialized in conf.lua, stores the networking properties.
 ## _StartupCommands: **Table**
 To save the initial commands from startup.ini
 
-## _DEFAULT_MIPMAP: **Number**
-Unknown yet, but it's value is -5;
-
 ## _Mouse: **Table**
 Used for getting mouse position.
 Content: x (number), y (number), worldX (number), worldY (number)
@@ -194,7 +191,6 @@ Whether screenshake is enabled in the advanced video settings page or not.
 
 ## _PULSE: **Boolean**
 Whether rhythm pulse is enabled in the advanced video settings page or not.
-
 
 ## _mouseButtons: **Table**
 Used in Events.el, for detecting when mouse buttons are held.
@@ -294,48 +290,51 @@ The player level required to unlock the ghost, Defaults to 6.
 ## _ROUNDS_PER_MINUTE: **Number**
 The amount of router per minute, Defaults to 1.
 
+## _DEFAULT_MIPMAP: **Number**
+Unknown yet, but it's value is -5;
+
 ## Unknown Variables:
 * **Booleans:**
-  * _INTERNET
-  * _ERROR_REPORTING
-  * _AntialiasSupported
-  * _EditorGrid
-  * _GamepadOutput
-  * _OutOfFocusSound
-  * _POSTPROCESS_UI
-  * _PAUSE
-  * _BLUR
-  * _Mipmap
-  * _SPLASH
-  * _SPLATTER
-  * _BoundKeys
-  * _LiveAIMatch
+..* _INTERNET
+..* _ERROR_REPORTING
+..* _AntialiasSupported
+..* _EditorGrid
+..* _GamepadOutput
+..* _OutOfFocusSound
+..* _POSTPROCESS_UI
+..* _PAUSE
+..* _BLUR
+..* _Mipmap
+..* _SPLASH
+..* _SPLATTER
+..* _BoundKeys
+..* _LiveAIMatch
 
 * **Numbers:*
-  * _TimePlayed
-  * _currentFrameTime
-  * _FPScap
-  * _debugModeCycler
+..* _TimePlayed
+..* _currentFrameTime
+..* _FPScap
+..* _debugModeCycler
 
 * **Strings:**
-  * _currentModeName
-  * _LastGameType
+..* _currentModeName
+..* _LastGameType
 
 * **Tables:**
-  * _GlobalMessageQueue
-  * _AdminSteamIds
-  * _SoundsData
-  * _SoundsDuration
-  * _TweenTimeTo
-  * _EmailThread
-  * _cam2
-  * _ShaderArray
-  * _mouseUp
-  * _KeyInput
-  * _GamepadTap
-  * _GamepadPress
-  * _JoySticks
-  * _DefaultCursor
-  * _UnlockedHiddenCharacters
-  * _miscUIRenders
-  *  _memoryTest
+..* _GlobalMessageQueue
+..* _AdminSteamIds
+..* _SoundsData
+..* _SoundsDuration
+..* _TweenTimeTo
+..* _EmailThread
+..* _cam2
+..* _ShaderArray
+..* _mouseUp
+..* _KeyInput
+..* _GamepadTap
+..* _GamepadPress
+..* _JoySticks
+..* _DefaultCursor
+..* _UnlockedHiddenCharacters
+..* _miscUIRenders
+..*  _memoryTest
