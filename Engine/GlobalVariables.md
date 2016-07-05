@@ -268,6 +268,19 @@ Warning(msg)
 #### Arguments:
 * msg: **Table / String / Number / Boolean / Nil**: The warning msg to show in the console.
 
+## Shockwave: **Function**
+Takes x and y relative to screen
+Unknown args:P
+```lua
+Shockwave(x,y,power,speed,width)
+```
+#### Arguments:
+* x: **Number**: The x position of something..
+* y: **Number**: The y position of something..
+* power: **Number**: Something..
+* speed: **Number**: Something..
+* width: **Number**: The width of something..
+
 ## _Version: **String**
 The current game version.
 
