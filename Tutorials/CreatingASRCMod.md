@@ -3,7 +3,7 @@ Creating a source code mod is not that hard, but the thing is in learning how to
 This documentation is intended to be used by programmers who knows how to program using Lua & LÖVE Framework.
 
 ## Creating the basic mod files
-Creating a mod will allways require the creation of the basic files, To do that, follow the [offical tutorial](http://www.moveordiegame.com/modding/intro) from the TAG team, Follow it till the "How To Make A Mod" part.
+Creating a mod will allways require the creation of the basic files, To do that, follow the [offical tutorial](http://www.moveordiegame.com/modding/intro) from the TAG team till the "How To Make A Mod" part.
 
 ## SRC Mod structer:
 * /Mods/YourMod/Lib/ **Here goes all the assets you wanna add to the game**
