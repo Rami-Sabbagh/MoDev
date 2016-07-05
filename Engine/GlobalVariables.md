@@ -291,6 +291,16 @@ ChromaticPulse(time,power)
 * time: **Number**: Something..
 * power: **Number**: Something..
 
+## ScreenShake: **Function**
+Creates a screenshake ?
+Unknown args :P
+```lua
+ScreenShake(power, decay)
+```
+#### Arguments:
+* power: **Number**: Something..
+* decay: **Number**: Something..
+
 ## _Version: **String**
 The current game version.
 
