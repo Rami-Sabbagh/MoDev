@@ -10,6 +10,7 @@ pages:
     - 'Stomp': 'Gamemodes/Stomp.md'
   - Engine:
     - 'GlobalVariables.el': 'Engine/GlobalVariables.md'
+    - 'GameObject.el': 'Engine/GameObject.md'
     - 'JoeClass.el': 'Engine/JoeClass.md'
     - 'effectBase.el': 'Engine/effectBase.md'
   - Src:
