@@ -22,7 +22,7 @@ local Joe = JoeClass:newJoe(x,y,controltype,scale,ui)
 * Joe: **JoeClass Instance**: The new joe.
 
 ## Joe:applyKnockback - **Function**
-Knocks back joe, like the blow back gamemode.
+Knocks back joe, as in the blow back gamemode.
 ```lua
 Joe:applyKnockback(x, y)
 ```
