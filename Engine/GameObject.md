@@ -64,4 +64,4 @@ local Child = Obj:newChild(x, y, imageName)
 * imageName: **String**: The name of the image to use for the game object, without the extension.
 
 #### Returns:
-* Child: **GameObject Instance**: The new static child object
+* Child: **GameObject Instance**: The new static child object.
