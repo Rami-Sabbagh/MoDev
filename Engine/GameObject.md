@@ -51,7 +51,7 @@ local Obj = GameObject:newUIObject(x, y, imageName)
 #### Returns:
 * Obj: **GameObject Instance**: The new ui object.
 
-###### It's also possible to create a static child object:
+###### It's also possible to create a child object:
 
 ### Obj:newChild - **Function**
 Creates a new ui object that's always rendered.
@@ -64,4 +64,4 @@ local Child = Obj:newChild(x, y, imageName)
 * imageName: **String**: The name of the image to use for the game object, without the extension.
 
 #### Returns:
-* Child: **GameObject Instance**: The new static child object.
+* Child: **GameObject Instance**: The new child object.
