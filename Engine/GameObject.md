@@ -26,7 +26,7 @@ local Obj = GameObject:newObject(x, y, imageName)
 * Obj: **GameObject Instance**: The new static object.
 
 ### GameObject:newDynamicObject - **Function**
-Creates a new static object.
+Creates a new dynamic object that can move.
 ```lua
 local Obj = GameObject:newDynamicObject(x, y, imageName)
 ```
