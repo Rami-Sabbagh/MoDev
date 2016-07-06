@@ -32,12 +32,11 @@ Joe:applyKnockback(x, y)
 
 ## Joe.OnLand - **Callback Function**
 Called when joe lands on ground.
-
 Original callback creates the dust poofs affect.
 ```lua
 function Joe.OnLand(joe)
 	--Do something here.
-	JoeClass.OnLand(joe) --To use the original onland callback so dust poofs happen.
+	JoeClass.OnLand(joe) --Call the original onland callback so dust poofs happen.
 end
 ```
 #### Arguments:
