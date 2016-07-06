@@ -11,7 +11,7 @@ There is three types of objects:
 local GameObject = require("Engine/GameObject")
 ```
 ## Creating a new object:
-###### There is 3 methods to create a new object, each for it's own object type:
+###### There are 3 methods to create a new object, each for it's own object type:
 ### GameObject:newObject - **Function**
 Creates a new static object.
 ```lua
