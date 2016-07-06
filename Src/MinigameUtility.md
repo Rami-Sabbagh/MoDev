@@ -55,3 +55,5 @@ Unknown yet.
 ```lua
 MinigameUtility:DebugUpdate(dt)
 ```
+#### Arguments:
+* dt: **Number**: The delta time in seconds (the time between every update call).
