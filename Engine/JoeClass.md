@@ -40,4 +40,4 @@ function Joe.OnLand(joe)
 end
 ```
 #### Arguments:
-* joe: **JoeClass Instance**: The joe that landed on the ground.
+* joe: **JoeClass Instance**: The joe that has landed on the ground.
