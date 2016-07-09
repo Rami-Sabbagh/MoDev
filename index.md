@@ -1,6 +1,11 @@
 # MoveOrDevelop
 Welcome to MoveOrDevelop, A project that aims to make MoveOrDie modding more easier for programmers.
 
+## Join us at gitter chat !
+You are welcomed to join us at our gitter chat, and we are happy to answer your questions, so don't be shy, make us motivated ;)
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/RamiLego4Game/MoDev?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Are we allowed to do this ?
 
 Sure :3, Remember this at the demo ?
