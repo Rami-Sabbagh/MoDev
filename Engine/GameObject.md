@@ -65,3 +65,7 @@ local Child = Obj:newChild(x, y, imageName)
 
 #### Returns:
 * Child: **GameObject Instance**: The new child object.
+
+# Functions:
+This is a list of the available functions to use on a gameobject instance.
+
