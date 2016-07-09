@@ -69,3 +69,94 @@ local Child = Obj:newChild(x, y, imageName)
 # Functions:
 This is a list of the available functions to use on a gameobject instance.
 
+## Obj:AddUpdate - **Function**
+
+## Obj:AlphaFlash - **Function**
+
+## Obj:attachAnim - **Function**
+
+## Obj:attachBody - **Function**
+
+## Obj:attachBox - **Function**
+
+## Obj:AttachGradientMask - **Function**
+
+## Obj:AttachMask - **Function**
+
+## Obj:attachSequenceAnim - **Function**
+
+## Obj:batchChildren - **Function**
+
+## Obj:batchRender - **Function**
+
+## Obj:CacheOutline - **Function**
+
+## Obj:ChangeSprite - **Function**
+
+## Obj:clearCollisionCategoryBit - **Function**
+
+## Obj:clearCollisionMaskBit - **Function**
+
+## Obj:DebugDraw - **Function**
+
+## Obj:Destroy - **Function**
+
+## Obj:Duplicate - **Function**
+
+## Obj:Flash - **Function**
+
+## Obj:GetChildrenHeight - **Function**
+
+## Obj:GetHeight - **Function**
+
+## Obj:GetScaleX - **Function**
+
+## Obj:GetScaleY - **Function**
+
+## Obj:GetWidth - **Function**
+
+## Obj:isAlwaysStatic - **Function**
+
+## Obj:MakeOutline - **Function**
+
+## Obj:Pulsate - **Function**
+
+## Obj:RefreshHash - **Function**
+
+## Obj:RemoveOutline - **Function**
+
+## Obj:RemoveUpdate - **Function**
+
+## Obj:resetShader - **Function**
+
+## Obj:ResolveRender - **Function**
+
+## Obj:SetAsButton - **Function**
+
+## Obj:setCollisionCategoryBit - **Function**
+
+## Obj:setCollisionGroup - **Function**
+
+## Obj:setCollisionMask- **Function**
+
+## Obj:setCollisionMaskBit - **Function**
+
+## Obj:SetPostDraw - **Function**
+
+## Obj:SetPreDraw - **Function**
+
+## Obj:SetQuad - **Function**
+
+## Obj:SetScale - **Function**
+
+## Obj:SetScaleX - **Function**
+
+## Obj:SetScaleXY - **Function**
+
+## Obj:SetScaleY - **Function**
+
+## Obj:ToggleCollision - **Function**
+
+## Obj:tryBatchRender - **Function**
+
+## Obj:update - **Function**
